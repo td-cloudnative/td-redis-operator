@@ -20,7 +20,7 @@ jobs:
 
       - name: Add upstream repository
         run: |
-          git remote add upstream https://github.com/milvus-io/milvus.git
+          git remote add upstream https://github.com/td-cloudnative/td-redis-operator.git
           git fetch upstream
 
       - name: Rename main to master if necessary
